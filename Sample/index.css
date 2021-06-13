@@ -1,0 +1,187 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    height: 80px;
+    -moz-box-shadow: 3px 3px 3px #ccc;
+-webkit-box-shadow: 3px 3px 3px #ccc;
+box-shadow: 3px 3px 3px #ccc;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+.h1{
+    margin-left: 200px;
+    
+}
+
+#head-H1{
+    font-size: 2em;
+}
+
+.btns{
+    margin-right: 70px;
+
+}
+
+.btn{
+    margin-right: 10px;
+}
+
+.list-items{
+    height: 800px;
+}
+
+.main-div{
+    height: auto;
+}
+
+.list-items h1{
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+#h1Tag{
+    margin: 0 auto 0 auto;
+    padding-top: 40px;
+}
+
+.list-items{
+    padding: 0 130px 0 200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form{
+    padding: 60px 0 120px;
+}
+
+.sc-div{
+    background-color: blue;
+    width: 200px;
+    height: 220px;
+    margin: 15px 0 15px 0;
+}
+.divOnDiv{
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 260px;
+    background-color: brown;
+    margin: 40px;
+    text-align: center;
+   
+}
+
+
+/*DropDown menu*/
+
+#size, #width, #lenght, #height, #weight{
+    width: 35%;
+}
+
+.data{
+    margin-top: 60px;
+    display: none;
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+    margin-top: auto;
+}
+
+
+/*MEDIA*/
+
+/*NavBar*/
+@media(max-width: 800px){
+    .h1{
+        margin-left: 50px;
+    }
+
+    .btns{
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 510px){
+    .h1{
+        margin-left: 30px;
+    }
+
+    #head-H1{
+        font-size: 1.5em;
+    }
+
+    .btns{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 405px){
+    .h1{
+        margin-left: 15px;
+    }
+
+    #head-H1{
+        font-size: 1.4em;
+    }
+
+    .btns{
+        margin-right: 10px;
+    }
+
+}
+
+@media(max-width: 380px){
+    .h1{
+        margin-left: 8px;
+    }
+
+    #head-H1{
+        font-size: 1.2em;
+    }
+
+    .btns{
+        margin-right: 7px;
+    }
+
+   
+
+    
+}
+
+@media(max-width: 380px){
+    .h1{
+        margin-left: 5px;
+    }
+
+    #head-H1{
+        font-size: 1.1em;
+    }
+
+    .btns{
+        margin-right: 5px;
+    }
+
+
+}
+
+/*Added Product*/
+
+@media(max-width:720px){
+    .list-items{
+        padding: 0;
+    }
+}
