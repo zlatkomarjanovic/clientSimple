@@ -1,4 +1,3 @@
-var sku = document.querySelector('#sku');
 var nameOf = document.querySelector('#name');
 var priceOf = document.querySelector('#price');
 
@@ -10,7 +9,7 @@ var weight = document.querySelector('#weight');
 var listOfDiv = document.querySelector('#listOfDiv');
 var h1Tag = document.querySelector('#h1Tag');
 
-var sku = document.querySelector('#sku');
+var sku = document.getElementById('colFormLabelLg sku');
 
 const addBTN = document.querySelector('#add-product-btn');
 
@@ -27,7 +26,8 @@ function myFunction(){
     scDiv.classList.add("sc-div");
     divOnDiv.appendChild(scDiv);
     
-    scDiv.textContent = sku.value;
+    scDiv.textContent = sku.value; 
+    
 }
 
 
